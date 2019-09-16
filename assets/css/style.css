@@ -83,6 +83,7 @@ img {
 .contact-bio {
     margin: 20px;
     font-family: 'Arial', 'Helvetica Neue', 'Helvetica', 'sans-serif';
+    color: #666666;
     padding: 15px;
 
 }
@@ -93,3 +94,41 @@ button {
     color: #ffffff;
     padding: 10px;
 }
+
+.gallery {
+  margin: 5px;
+  margin-left: -20px;
+  border: 1px solid #ccc;
+  position:absolute;
+  background-color:#ffffff;
+    }
+  
+  a {font-family: 'Arial', 'Helvetica Neue', 'Helvetica', 'sans-serif';
+    color: #666666;
+}
+  a :hover {
+    color: #4aaaa5;
+  }
+
+  a:link {
+    background-color: #ffffff;
+  }
+  
+  
+  a:hover {
+    background-color: lightgreen;
+  }
+  
+  a:active {
+    background-color: hotpink;
+  } 
+
+  .gallery1 {
+    top:60px;
+    left: 30px;
+  }
+
+  .gallery1 {
+    top:60px;
+    left: 30px;
+  }
