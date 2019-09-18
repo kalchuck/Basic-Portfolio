@@ -63,17 +63,18 @@ nav {
 }
 
 footer {
-    display: block;
+    position: fixed;
+    left: 0;
+    bottom: 0;
     width: 100%;
-    margin: 0px;
-    padding: 10px;
-    background-color: #666666;
+    background-color:#666666;
     color: #ffffff;
-    font-family: 'Arial', 'Helvetica Neue', 'Helvetica', 'sans-serif';    
-    font-size:'18px';
     text-align: center;
-        
-}
+    border-top: 8px solid #4aaaa5;
+    color: #ffffff;
+    font-family: 'Arial', 'Helvetica Neue', 'Helvetica', 'sans-serif';   
+    
+    }
 
 img {
     float: left;
@@ -96,8 +97,7 @@ button {
 }
 
 .gallery {
-  margin: 5px;
-  margin-left: -20px;
+  margin: 20 px;
   border: 1px solid #ccc;
   position:absolute;
   background-color:#ffffff;
@@ -123,12 +123,5 @@ button {
     background-color: hotpink;
   } 
 
-  .gallery1 {
-    top:60px;
-    left: 30px;
-  }
-
-  .gallery1 {
-    top:60px;
-    left: 30px;
-  }
+  
+ 
